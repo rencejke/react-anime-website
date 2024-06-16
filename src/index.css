@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Poppins-Black";
+  src: url(/fonts/Poppins-Black.woff) format("woff"),
+  url(/fonts/Poppins-Black.woff2) format("woff2");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(/fonts/Poppins-Regular.woff) format("woff"),
+  url(/fonts/Poppins-Regular.woff2) format("woff2");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(/fonts/Poppins-Bold.woff) format("woff"),
+  url(/fonts/Poppins-Bold.woff2) format("woff2");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(/fonts/Poppins-Medium.woff) format("woff"),
+  url(/fonts/Poppins-Medium.woff2) format("woff2");
+
+  font-display: swap;
+}
+
+
+:root{
+  --primary: 11 12 42;
+  --secondary: 31 24 122;
+  --accent: 21 23 81
+  --content: 255 255 255;
+  --header:7 7 32;
+  --line: 228 54 55;
+  --alert: 220 38 38;
+  --disable: 127 127 127;
+  --info: 68 130 208;
+  --warning: 177 130 47;
+}
+
+@layer base{
+
+  .container
+  {
+    @apply max-w-[1500px] w-full mx-auto px-[120px]
+  }
+  
+  
+ .dropdown-content li a
+ {
+   @apply block text-black text-[15px] px-3 py-1
+ }
+ .dropdown-content a:hover
+ {
+  @apply bg-line text-white
+ }
+ .dropdown-categories:hover .dropdown-content
+ {
+  @apply block mt-4 z-[2]
+ }
+
+
+ .slider-thumbnail .thumbnail-item
+ {
+  @apply w-[150px] h-[220px] shrink-0 relative
+ }
+ .slider-thumbnail .thumbnail-item img 
+ {
+  @apply w-[100%] h-[100%] object-cover rounded-md 
+ }
+
+ .nextSliderButtons button
+ {
+  @apply p-3 h-[40px] rounded-full bg-primary
+ }
+
+
+  body {
+    @apply
+    bg-primary
+    text-white
+    font-regular;
+  }
+
+  a{
+    @apply
+    text-content
+  }
+
+  ul {
+    @apply
+    list-none
+    text-content
+  }
+
+  img{
+    @apply
+    block
+    w-full
+    h-auto
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    @apply
+    font-bold
+    text-header
+    font-thicker
+    text-white
+  }
+
+  h1{
+    @apply
+    text-3xl
+    mb-4
+  }
+  h2{
+    @apply
+    text-xl
+    mb-4
+  }
+  h3{
+    @apply
+    text-lg
+    mb-2
+  }
+  h4{
+    @apply
+    text-base
+    mb-4
+  }
+
+  p{
+    @apply
+    mb-2
+    !leading-5
+    opacity-80
+  }
+
+}
+@layer components{
+ 
+  .btn
+  {
+    @apply bg-primary text-white p-2 
+  }
+  .btn:hover 
+  {
+    @apply bg-line
+  }
+  .genre 
+  {
+    @apply bg-white text-primary w-[53%] p-1 
+  }
+
+}
+@layer utilities{
+}
