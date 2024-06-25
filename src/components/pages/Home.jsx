@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from '../partials/Header'
-import Slider from '../partials/Slider'
+import Sliders from '../partials/Sliders'
 
 const Home = () => {
   return (
     <>
       <Header />
-      <Slider />
+      <Sliders />
     </>  
   )
 }

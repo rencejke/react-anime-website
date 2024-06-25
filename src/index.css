@@ -71,19 +71,7 @@
  }
 
 
- .slider-thumbnail .thumbnail-item
- {
-  @apply w-[150px] h-[220px] shrink-0 relative
- }
- .slider-thumbnail .thumbnail-item img 
- {
-  @apply w-[100%] h-[100%] object-cover rounded-md 
- }
 
- .nextSliderButtons button
- {
-  @apply p-3 h-[40px] rounded-full bg-primary
- }
 
 
   body {
@@ -166,3 +154,89 @@
 }
 @layer utilities{
 }
+
+
+/* .slider .slider-list .slider-list-item:nth-child(1)
+{
+  @apply z-[1]
+}
+
+.slider .slider-list .slider-list-item:nth-child(1) .slider-content .title,
+.slider .slider-list .slider-list-item:nth-child(1) .slider-content .genre,
+.slider .slider-list .slider-list-item:nth-child(1) .slider-content .description,
+.slider .slider-list .slider-list-item:nth-child(1) .slider-content button
+{
+  @apply transform translate-y-[50px] blur-[50px] animate-showContent
+}
+
+.slider .slider-list .slider-list-item:nth-child(1) .slider-content .genre,
+{
+  @apply animation-delay-75
+}
+
+.slider .slider-list .slider-list-item:nth-child(1) .slider-content .title
+{
+  @apply animation-delay-150
+}
+
+.slider .slider-list .slider-list-item:nth-child(1) .slider-content .description,
+{
+  @apply animation-delay-200
+}
+.slider .slider-list .slider-list-item:nth-child(1) .slider-content button,
+{
+  @apply animation-delay-300
+}
+
+.slider.next .slider-list .slider-list-item:nth-child(1) img{
+  @apply w-[150px] h-[220px] absolute bottom-[50px] left-[50%] rounded-[30px] animate-showImage
+}
+
+.slider.next .slider-thumbnail .thumbnail-item:nth-child(1)
+{
+  @apply overflow-hidden animate-showThumbnail
+}
+
+.slider.prev .slider-list .slider-item img
+{
+  @apply z-[100]
+}
+
+.slider.next .slider-thumbnail
+{
+  @apply animate-effectNext
+}
+
+.slider-prev .slider-list .slider-list-item:nth-child(2)
+{
+  @apply z-[2]
+}
+
+.slider-prev .slider-list .slider-list-item:nth-child(2) img
+{
+  @apply absolute bottom-0 left-0 animate-outFrame
+}
+
+.slider-prev .slider-thumbnail .thumbnail-item:nth-child(1)
+{
+  @apply overflow-hidden opacity-0 animate-showThumbnail
+}
+
+.slider.prev .slider-list .slider-list-item:nth-child(1) .slider-content .title,
+.slider.prev .slider-list .slider-list-item:nth-child(1) .slider-content .genre,
+.slider.prev .slider-list .slider-list-item:nth-child(1) .slider-content .description,
+.slider.prev .slider-list .slider-list-item:nth-child(1) .slider-content button
+{
+  @apply animate-contentOut;
+}
+
+
+.slider .slider-list .slider-list-item .content
+{
+  @apply sm:pr-0
+}
+
+.slider .slider-list .slider-list-item .content .title
+{
+  @apply text-[30px]
+} */
