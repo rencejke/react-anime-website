@@ -70,7 +70,9 @@
   @apply block mt-4 z-[2]
  }
 
-
+ .slick-prev:before {
+  
+ }
 
 
 
@@ -138,10 +140,15 @@
 }
 @layer components{
  
-  .btn
+  .btn-left
   {
-    @apply bg-primary text-white p-2 
+    @apply bg-line text-white p-4 rounded-l-lg
   }
+  .btn-right
+  {
+    @apply bg-line text-white p-4 rounded-r-lg
+  }
+  
   .btn:hover 
   {
     @apply bg-line
