@@ -5,11 +5,7 @@ import SectionComment from './SectionComment'
 
 const PopularShow = () => {
   return (
-   <section className='trending mt-10'>
-    
-    <div className="container">
-   <div className=' wrapper grid grid-cols-[3fr_2fr] gap-7'>
-    <div>
+   <section className='popular mt-16'>
     <SectionBanner title="Popular Shows" hasLink={true} link='/trending'/>
     <div className='grid grid-cols-3 gap-6 mt-5'>
    
@@ -234,18 +230,7 @@ const PopularShow = () => {
      </div>
     </div>
     </div>
-
     </div>
-    </div>
-    
-    <div className='mt-[5rem]'>
-    <SectionComment title="New Comment" hasLink={true} link='/trending'/>
-    </div>
-
-
-   </div>
-    </div>
-
    </section>
   )
 }

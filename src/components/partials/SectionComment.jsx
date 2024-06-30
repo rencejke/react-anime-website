@@ -5,7 +5,7 @@ import { FaEye } from 'react-icons/fa'
 const SectionComment = ({title="trending"}) => {
   return (
    <>
-    <div className='flex justify-between items-center'>
+    <div className='flex justify-between items-center mt-16'>
     <h3 className='text-2xl pl-3 border-l-4 border-line'>{title}</h3>
    </div>
     

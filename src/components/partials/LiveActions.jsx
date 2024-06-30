@@ -2,11 +2,11 @@ import React from 'react'
 import SectionBanner from './SectionBanner'
 import { FaComment, FaEye } from 'react-icons/fa'
 
-const Trending = () => {
+const LiveActions = () => {
   return (
    <section className='trending mt-10'>
     <div>
-    <SectionBanner title="Trending Now" hasLink={true} link='/trending'/>
+    <SectionBanner title="Live Action" hasLink={true} link='/liveAction'/>
     <div className='grid grid-cols-3 gap-6 mt-5'>
    
     {/* card-item-1 */}
@@ -238,4 +238,4 @@ const Trending = () => {
   )
 }
 
-export default Trending
+export default LiveActions

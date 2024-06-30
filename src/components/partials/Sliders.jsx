@@ -93,7 +93,7 @@ const Sliders = () => {
           <Slider {...settings}>
             <div className=''>
               <div className="image">
-                <img src="../../public/img/anime4.jpg" alt="" />
+                <img src="../../public/img/anime4.jpg" alt="" className='rounded-md'/>
               </div>
               <div className="content absolute top-[35%] w-[1140px] pl-[7%] -translate-x-[50%] z-[9999]">
                 <p className='genre'>Shōnen Sports</p>
@@ -107,7 +107,7 @@ const Sliders = () => {
             </div>
             <div className=''>
               <div className="image">
-                <img src="../../public/img/anime2.jpg" alt=""/>
+                <img src="../../public/img/anime2.jpg" alt="" className='rounded-md'/>
               </div>
               <div className="content absolute top-[35%] w-[1140px] pl-[7%] -translate-x-[50%] z-[9999]">
                 <p className='genre'>Shōnen Sports</p>
@@ -121,7 +121,7 @@ const Sliders = () => {
             </div>
             <div className=''>
               <div className="image">
-                <img src="../../public/img/anime1.jpg" alt="" />
+                <img src="../../public/img/anime1.jpg" alt="" className='rounded-md'/>
               </div>
               <div className="content absolute top-[35%] w-[1140px] pl-[7%] -translate-x-[50%] z-[9999]">
                 <p className='genre'>Shōnen Sports</p>

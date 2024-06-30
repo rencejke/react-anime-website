@@ -247,3 +247,8 @@
 {
   @apply text-[30px]
 } */
+
+input
+{
+  @apply text-black
+}
